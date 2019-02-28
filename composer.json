@@ -1,0 +1,13 @@
+{
+    "name": "favian/phpoputa",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Favian-Ioel Poputa",
+            "email": "favianioel@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^4.2"
+    }
+}
