@@ -36,8 +36,6 @@ class FrameworkTest extends TestCase
     private function getFrameworkForException($exception)
     {
         $matcher = $this->createMock(Routing\Matcher\UrlMatcherInterface::class);
-        // use getMock() on PHPUnit 5.3 or below
-        // $matcher = $this->getMock(Routing\Matcher\UrlMatcherInterface::class);
 
         $matcher
             ->expects($this->once())

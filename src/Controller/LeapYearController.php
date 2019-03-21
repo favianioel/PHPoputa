@@ -1,10 +1,10 @@
 <?php
 
-namespace Calendar\Controller;
+namespace Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Calendar\Model\LeapYear;
+use Utils\LeapYear;
 
 class LeapYearController
 {

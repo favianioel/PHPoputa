@@ -1,6 +1,6 @@
 <?php 
 
-namespace Calendar\Model;
+namespace Utils;
 
 class LeapYear
 {
